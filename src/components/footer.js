@@ -11,6 +11,7 @@ class Footer extends Component {
               <SocialIcon
                 url="mailto:jessica.triana.tx@gmail.com"
                 style={{ height: 25, width: 25 }}
+                bgColor="#9370DB"
               />
             </a>
           </li>
