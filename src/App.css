@@ -19,7 +19,6 @@ h5 {
 
 /* Home */
 .homebackground {
-  background-image: "landscape.jpg";
   background: url("/landscape1.jpg");
   background-repeat: no-repeat;
   background-size: cover;

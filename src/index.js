@@ -22,7 +22,6 @@ ReactDOM.render(
       <Route exact path="/spokesmodel" component={Spokesmodel} />
       <Route exact path="/youtuber" component={YouTuber} />
       <Route exact path="/" component={App} />
-
     </React.StrictMode>
   </Router>,
   document.getElementById("root")

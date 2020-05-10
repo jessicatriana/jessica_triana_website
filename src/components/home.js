@@ -8,7 +8,7 @@ class Home extends Component {
     return (
       <div>
         <NavBar />
-        <div classname="homebackground">
+        <div>
           <BackgroundImage />
         </div>
         <Footer />

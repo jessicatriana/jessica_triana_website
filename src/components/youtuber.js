@@ -13,7 +13,7 @@ class YouTuber extends Component {
         <p style={{ textAlign: "center" }}>More content coming soon!</p>
         <br></br>
         <div className="container">
-          <div className="row" >
+          <div className="row">
             <div className="col-md-auto">
               <YouTube
                 video="7V2oc7lRfEk"
@@ -21,7 +21,9 @@ class YouTuber extends Component {
                 height="280px"
                 muted="true"
               />
-              </div></div></div>
+            </div>
+          </div>
+        </div>
         <Footer />
       </div>
     );

@@ -28,7 +28,9 @@ class Developer extends Component {
           muted="true"
         />
         <br></br>
-        <p style={{fontSize: "12px"}}>React, BootStrap, Ruby on Rails, PostgreSQL - Built May 2020</p>
+        <p style={{ fontSize: "12px" }}>
+          React, BootStrap, Ruby on Rails, PostgreSQL - Built May 2020
+        </p>
         <br></br>
         <br></br>
         <br></br>
@@ -43,7 +45,9 @@ class Developer extends Component {
           muted="true"
         />
         <br></br>
-        <p style={{fontSize: "12px"}}>React, Ruby on Rails, SQLite3 - Built April 2020</p>
+        <p style={{ fontSize: "12px" }}>
+          React, Ruby on Rails, SQLite3 - Built April 2020
+        </p>
         <br></br>
         <br></br>
         <br></br>
@@ -56,7 +60,9 @@ class Developer extends Component {
           muted="true"
         />
         <br></br>
-        <p style={{fontSize: "12px"}}>Ruby on Rails, SQLite3, ActiveRecord - Built March 2020</p>
+        <p style={{ fontSize: "12px" }}>
+          Ruby on Rails, SQLite3, ActiveRecord - Built March 2020
+        </p>
         <br></br>
         <br></br>
         <br></br>
