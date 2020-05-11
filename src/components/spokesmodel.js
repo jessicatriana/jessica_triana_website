@@ -7,7 +7,7 @@ class Spokesmodel extends Component {
     return (
       <div>
         <NavBar />
-        <br></br>
+        <br></br><br></br><br></br>
         <h1 style={{ textAlign: "center" }}>Past Contracts</h1>
         <br></br>
         <Footer />

@@ -7,6 +7,8 @@ class Bio extends Component {
         return (
             <div>
                 <NavBar />
+                <br></br><br></br><br></br>
+                <h1 style={{ textAlign: "center" }}>Bio</h1>
                 <Footer />
             </div>
         );

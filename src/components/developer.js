@@ -8,7 +8,7 @@ class Developer extends Component {
     return (
       <div className="projects">
         <NavBar />
-        <br></br>
+        <br></br><br></br>
         <div className="sticky-top devheading">
           <h1 style={{ textAlign: "center" }}>Full Stack Projects</h1>
           <div style={{ color: "gray", fontSize: "14px" }}>

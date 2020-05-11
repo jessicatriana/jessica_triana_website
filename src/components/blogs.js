@@ -7,6 +7,8 @@ class Blogs extends Component {
         return (
             <div>
                 <NavBar />
+                <br></br><br></br><br></br>
+                <h1 style={{ textAlign: "center" }}>Technical Blogs</h1>
                 <Footer />
             </div>
         );

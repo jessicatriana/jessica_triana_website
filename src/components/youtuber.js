@@ -8,9 +8,9 @@ class YouTuber extends Component {
     return (
       <div>
         <NavBar />
-        <br></br>
+        <br></br><br></br><br></br>
         <h1 style={{ textAlign: "center" }}>A Creative Outlet</h1>
-        <p style={{ textAlign: "center" }}>More content coming soon!</p>
+        <p style={{ textAlign: "center" }}>Jessica recently discovered she enjoys capturing images of the beauty around her. <br></br>This is slowly become a hobby where she edits the footage and uplaods it to YouTube. <br></br>More content coming soon!</p>
         <br></br>
         <div className="container">
           <div className="row">

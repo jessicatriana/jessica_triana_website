@@ -7,7 +7,8 @@ class Contact extends Component {
         return (
             <div>
                 <NavBar />
-                Contact Page
+                <br></br><br></br><br></br>
+                <h1 style={{ textAlign: "center" }}>Contact Info</h1>
                 <Footer />
             </div>
         );

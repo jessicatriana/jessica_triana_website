@@ -33,7 +33,7 @@ class NavBar extends Component {
             </li>
             <li className="nav-item">
               <a className="nav-link" href="/youtuber">
-                YouTuber
+                Creator
               </a>
             </li>
             <li className="nav-item">
