@@ -18,8 +18,8 @@ h5 {
 }
 
 /* Home */
-.homebackground {
-  background: url("/landscape1.jpg") no-repeat;
+
+.background {
   background-size: 200vh;
   width: 100%;
   height: 140vh;

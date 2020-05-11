@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import NavBar from "./navbar";
 import Footer from "./footer";
+import Background from "./background.js"
 
 
 class Home extends Component {
@@ -9,7 +10,7 @@ class Home extends Component {
       <div>
         <NavBar />
         <div>
-    
+       <Background />
         </div>
         <Footer />
       </div>
