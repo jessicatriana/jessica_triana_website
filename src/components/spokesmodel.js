@@ -9,15 +9,16 @@ class Spokesmodel extends Component {
         <NavBar />
         <br></br>
         <div className="sticky-top devheading">
-        <h1 style={{ textAlign: "center" }}>Past Contracts</h1>
-        <div style={{ color: "gray", fontSize: "14px" }}>
-          Over the last 4 years, Jessica has worked as a Product Specialist,
-          Demonstrator, and Spokesmodel for numerous Fortune 500 companies.
-          <br></br>
-          She enjoyed traveling to high-profile events and sharing the latest
-          info on products from all different industries.
-          <br></br><br></br>
-        </div>
+          <h1 style={{ textAlign: "center" }}>Past Contracts</h1>
+          <div style={{ color: "gray", fontSize: "14px" }}>
+            Over the last 4 years, Jessica has worked as a Product Specialist,
+            Demonstrator, and Spokesmodel for numerous Fortune 500 companies.
+            <br></br>
+            She enjoyed traveling to high-profile events and sharing the latest
+            information on products from various industries.
+            <br></br>
+            <br></br>
+          </div>
         </div>
         <br></br>
         <div class="wrapper">
@@ -76,7 +77,10 @@ class Spokesmodel extends Component {
             <img src="/lg.png" alt="lg" width="300px" />
             <br></br>
             Las Vegas Consumer Electronics Show
-            <br></br><br></br><br></br><br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
           </div>
         </div>
         <Footer />

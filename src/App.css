@@ -91,11 +91,31 @@ h5 {
   grid-row: 3;
 }
 
+/* Blogs */
+.blogs {
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
 /* Creator */
 .creations {
   text-align: center;
   background-color: #f8f9fa;
 }
+
+/* Bio */
+.bio {
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+/* Contact  */
+
+.contact {
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
 
 /* Footer */
 .footer {
