@@ -7,6 +7,7 @@ class Contact extends Component {
         return (
             <div>
                 <NavBar />
+                Contact Page
                 <Footer />
             </div>
         );
