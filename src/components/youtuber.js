@@ -6,11 +6,11 @@ import YouTube from "@u-wave/react-youtube";
 class YouTuber extends Component {
   render() {
     return (
-      <div>
+      <div className="creations">
         <NavBar />
         <br></br><br></br><br></br>
         <h1 style={{ textAlign: "center" }}>A Creative Outlet</h1>
-        <p style={{ textAlign: "center" }}>Jessica recently discovered she enjoys capturing images of the beauty around her. <br></br>This is slowly become a hobby where she edits the footage and uplaods it to YouTube. <br></br>More content coming soon!</p>
+        <div style={{ color: "gray", fontSize: "14px" }}>Jessica recently discovered she enjoys capturing images of the beauty around her. This is slowly become a<br></br> hobby where she edits the footage and uplaods it to YouTube. More content coming soon!</div>
         <br></br>
         <div className="container">
           <div className="row">

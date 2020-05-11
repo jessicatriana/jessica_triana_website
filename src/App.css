@@ -1,5 +1,4 @@
 /* Full Website */
-
 h1,
 h2,
 h3,
@@ -18,11 +17,11 @@ h5 {
 }
 
 /* Home */
-
 .background {
-  background-size: 200vh;
+  background: url("/landscape1.jpg") no-repeat;
+  background-size: cover;
   width: 100%;
-  height: 140vh;
+  height: 150vh;
   background-position: center center;
   position: fixed;
   opacity: 80%;
@@ -30,13 +29,70 @@ h5 {
 
 /* Developer */
 .devheading {
-  top: 55px;
+  top: 63px;
   margin-top: 30px;
   margin-bottom: 30px;
   background-color: #f8f9fa;
 }
 
 .projects {
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+/* Spokesmodel */
+.contracts {
+  text-align: center;
+  background-color: #f8f9fa;
+}
+.wrapper {
+  margin-left: 170px;
+  margin-right: 170px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.one {
+  grid-column: 1;
+  grid-row: 1;
+}
+.two {
+  grid-column: 2;
+  grid-row: 1;
+}
+.three {
+  grid-column: 3;
+  grid-row: 1;
+}
+.four {
+  grid-column: 1;
+  grid-row: 2;
+}
+.five {
+  grid-column: 2;
+  grid-row: 2;
+}
+.six {
+  grid-column: 3;
+  grid-row: 2;
+}
+.seven {
+  grid-column: 1;
+  grid-row: 3;
+}
+.eight {
+  grid-column: 2;
+  grid-row: 3;
+}
+.nine {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+/* Creator */
+.creations {
   text-align: center;
   background-color: #f8f9fa;
 }
