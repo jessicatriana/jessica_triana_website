@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 
-class NavBar extends Component {
+class Navbar extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-md navbar-light bg-light fixed-top">
         <a className="navbar-brand" href="/">
-          Jessica Triana
+          <img src="/jessica_avatar.png" alt="Jessica's Avatar" width="40" />
+          &nbsp; Jessica Triana
         </a>
         <button
           className="navbar-toggler"
@@ -32,20 +33,16 @@ class NavBar extends Component {
               </a>
             </li>
             <li className="nav-item">
+              <a className="nav-link" href="/blogs">
+                Writer
+              </a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link" href="/youtuber">
                 Creator
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/blogs">
-                Blogs
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/bio">
-                Bio
-              </a>
-            </li>
+          
             <li className="nav-item">
               <a className="nav-link" href="/contact">
                 Contact
@@ -53,7 +50,7 @@ class NavBar extends Component {
             </li>
             <li className="nav-item active">
               <a className="nav-link" href="/">
-                Home <span class="sr-only">(current)</span>
+                Home <span className="sr-only">(current)</span>
               </a>
             </li>
           </ul>
@@ -63,4 +60,4 @@ class NavBar extends Component {
   }
 }
 
-export default NavBar;
+export default Navbar;

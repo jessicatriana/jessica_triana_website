@@ -10,7 +10,7 @@ class Developer extends Component {
         <NavBar />
         <br></br>
         <div className="sticky-top devheading">
-          <h1 style={{ textAlign: "center" }}>Full Stack Projects</h1>
+          <h1 style={{ textAlign: "center" }}>Developer</h1>
           <div style={{ color: "gray", fontSize: "14px" }}>
             Here are a few of the projects that Jessica built during her time as
             a Software Engineering student at Flatiron School in Austin, TX.{" "}
@@ -20,6 +20,7 @@ class Developer extends Component {
             <br></br>
           </div>
         </div>
+
         <h5>Sanctuary - An effortless way to plan a National Park getaway.</h5>
         <YouTube
           video="bj5h3jA2-dg"
@@ -35,6 +36,7 @@ class Developer extends Component {
         <br></br>
         <br></br>
         <br></br>
+
         <h5>
           Get Together - Connecting like-minded programmers both on and offline.
         </h5>

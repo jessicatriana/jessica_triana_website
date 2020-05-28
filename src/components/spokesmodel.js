@@ -9,7 +9,7 @@ class Spokesmodel extends Component {
         <NavBar />
         <br></br>
         <div className="sticky-top devheading">
-          <h1 style={{ textAlign: "center" }}>Past Contracts</h1>
+          <h1 style={{ textAlign: "center" }}>Spokesmodel</h1>
           <div style={{ color: "gray", fontSize: "14px" }}>
             Over the last 4 years, Jessica has worked as a Product Specialist,
             Demonstrator, and Spokesmodel for numerous Fortune 500 companies.

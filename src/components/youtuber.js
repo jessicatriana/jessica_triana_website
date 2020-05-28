@@ -10,7 +10,7 @@ class YouTuber extends Component {
         <NavBar />
         <br></br>
         <div className="sticky-top devheading">
-          <h1 style={{ textAlign: "center" }}>A Creative Outlet</h1>
+          <h1 style={{ textAlign: "center" }}>Creator</h1>
           <div style={{ color: "gray", fontSize: "14px" }}>
             Jessica recently discovered she enjoys capturing images of the
             beauty around her. This is slowly becoming a<br></br> hobby where

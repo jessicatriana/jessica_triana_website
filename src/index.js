@@ -5,7 +5,6 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Bio from "./components/Bio";
 import Blogs from "./components/Blogs";
 import Contact from "./components/Contact";
 import Developer from "./components/Developer";
@@ -15,7 +14,6 @@ import YouTuber from "./components/Youtuber";
 ReactDOM.render(
   <Router>
     <React.StrictMode>
-      <Route exact path="/bio" component={Bio} />
       <Route exact path="/blogs" component={Blogs} />
       <Route exact path="/contact" component={Contact} />
       <Route exact path="/developer" component={Developer} />
