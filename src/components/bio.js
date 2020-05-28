@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import NavBar from "./navbar";
-import Footer from "./footer";
+import NavBar from "./Navbar";
+import Footer from "./Footer";
 
 class Bio extends Component {
   render() {

@@ -5,12 +5,12 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Bio from "./components/bio";
-import Blogs from "./components/blogs";
-import Contact from "./components/contact";
-import Developer from "./components/developer";
-import Spokesmodel from "./components/spokesmodel";
-import YouTuber from "./components/youtuber";
+import Bio from "./components/Bio";
+import Blogs from "./components/Blogs";
+import Contact from "./components/Contact";
+import Developer from "./components/Developer";
+import Spokesmodel from "./components/Spokesmodel";
+import YouTuber from "./components/Youtuber";
 
 ReactDOM.render(
   <Router>
