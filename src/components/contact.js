@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import NavBar from "./Navbar";
+import NavBarDark from "./NavbarDark";
 import Footer from "./Footer";
 
 class Contact extends Component {
   render() {
     return (
       <div className="contact">
-        <NavBar />
+        <NavBarDark />
         <br></br>
         <div className="sticky-top devheading">
           <h1 style={{ textAlign: "center" }}>Contact</h1>

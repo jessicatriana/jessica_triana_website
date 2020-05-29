@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import NavBar from "./Navbar";
+import NavBarDark from "./NavbarDark";
 import Footer from "./Footer";
 import Post from "./Post";
 
@@ -21,7 +21,7 @@ class Blogs extends Component {
   render() {
     return (
       <div className="blogs">
-        <NavBar />
+        <NavBarDark />
         <br></br>
         <div className="sticky-top devheading">
           <br></br>
@@ -31,10 +31,13 @@ class Blogs extends Component {
             <br></br>
             <br></br>
           </div>
+          </div>
+          <div>
           {this.state.posts.map((post) => (
             <Post post={post} />
           ))}
-        </div>
+          </div>
+       
         <Footer />
       </div>
     );

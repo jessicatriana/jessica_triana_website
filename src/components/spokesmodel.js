@@ -1,14 +1,15 @@
 import React, { Component } from "react";
-import NavBar from "./Navbar";
+import NavBarDark from "./NavbarDark";
 import Footer from "./Footer";
 
 class Spokesmodel extends Component {
   render() {
     return (
       <div className="contracts">
-        <NavBar />
+        <NavBarDark />
         <br></br>
         <div className="sticky-top devheading">
+          <br></br>
           <h1 style={{ textAlign: "center" }}>Spokesmodel</h1>
           <div style={{ color: "gray", fontSize: "14px" }}>
             Over the last 4 years, Jessica has worked as a Product Specialist,
@@ -81,10 +82,13 @@ class Spokesmodel extends Component {
             <br></br>
             <br></br>
             <br></br>
+            <Footer className="footer_z_index"/>
           </div>
+
         </div>
-        <Footer />
+     
       </div>
+      
     );
   }
 }
