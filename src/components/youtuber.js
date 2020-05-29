@@ -10,18 +10,22 @@ class YouTuber extends Component {
         <NavBarDark />
         <br></br>
         <div className="sticky-top devheading">
+          <br></br>
           <h1 style={{ textAlign: "center" }}>Creator</h1>
           <div style={{ color: "gray", fontSize: "14px" }}>
-            Jessica recently discovered she enjoys capturing images of the
-            beauty around her. This is slowly becoming a<br></br> hobby where
-            she edits the footage and uploads it to YouTube. More content coming
-            soon!
+            I love taking day-hikes around Austin and traveling to other states
+            like Colorado to experience the true beauty of the natural world.
+            <br></br>
+            Recently, I realized I enjoy the process of capturing footage,
+            editing it, and sharing it on Youtube.
+            <br></br>
+            <br></br>
+            More content coming soon!
             <br></br>
           </div>
         </div>
         <div className="container">
-          {/* <div className="row"> */}
-          {/* <div className="col-md-auto"> */}
+
           <YouTube
             video="7V2oc7lRfEk"
             width="500px"

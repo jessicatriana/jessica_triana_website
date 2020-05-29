@@ -19,10 +19,10 @@ class Developer extends Component {
             Developer
           </h1>
           <div style={{ color: "gray", fontSize: "14px" }}>
-            Here are a few of the projects that Jessica built during her time as
-            a Software Engineering student at Flatiron School in Austin, TX.{" "}
-            <br></br>She enjoyed collaborating with other students to bring
-            these ideas to life using modern web development frameworks.
+            Here are demos of the projects I built during my time as a Software
+            Engineering student at Flatiron School in Austin, TX. <br></br>
+            Sanctuary was my final, independent project, while all other
+            projects were in collaboration with other students.
             <br></br>
             <br></br>
           </div>

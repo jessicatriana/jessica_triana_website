@@ -27,17 +27,18 @@ class Blogs extends Component {
           <br></br>
           <h1 style={{ textAlign: "center" }}>Writer</h1>
           <div style={{ color: "gray", fontSize: "14px" }}>
-            Here are the technical blogs I've written on DEV:
+            Here are the technical blogs I've written on <a href="https://dev.to/jessicatriana" >DEV</a>.
+            <br></br>Click an image to read the full blog.
             <br></br>
             <br></br>
           </div>
-          </div>
-          <div>
+        </div>
+        <div>
           {this.state.posts.map((post) => (
             <Post post={post} />
           ))}
-          </div>
-       
+        </div>
+
         <Footer />
       </div>
     );

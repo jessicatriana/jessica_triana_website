@@ -3,6 +3,7 @@ import React from "react";
 function Post(props) {
   return (
     <div className="posts">
+        <hr></hr>
       <h4>{props.post.title}</h4>
       <p>{props.post.description}</p>
       <a href={props.post.canonical_url}>
@@ -15,6 +16,7 @@ function Post(props) {
       <p>Positive Reactions: {props.post.public_reactions_count}</p>
 
       <br></br>
+
     </div>
   );
 }
