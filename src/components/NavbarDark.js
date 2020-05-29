@@ -44,8 +44,8 @@ class Navbar_Dark extends Component {
             </li>
           
             <li className="nav-item">
-              <a className="nav-link" href="/contact">
-                Contact
+              <a className="nav-link" href="/resume">
+                Resume
               </a>
             </li>
             <li className="nav-item active">

@@ -12,10 +12,10 @@ class Spokesmodel extends Component {
           <br></br>
           <h1 style={{ textAlign: "center" }}>Spokesmodel</h1>
           <div style={{ color: "gray", fontSize: "14px" }}>
-            Over the last 4 years, Jessica has worked as a Product Specialist,
+            Over the last 4 years, I worked as a Product Specialist,
             Demonstrator, and Spokesmodel for numerous Fortune 500 companies.
             <br></br>
-            She enjoyed traveling to high-profile events and sharing the latest
+            I enjoyed traveling to high-profile events and sharing the latest
             information on products from various industries.
             <br></br>
             <br></br>
