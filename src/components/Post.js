@@ -16,7 +16,7 @@ function Post(props) {
       <p>Positive Reactions: {props.post.public_reactions_count}</p>
 
       <br></br>
-
+<br></br>
     </div>
   );
 }
