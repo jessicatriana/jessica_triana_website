@@ -16,7 +16,7 @@ class Developer extends Component {
               textAlign: "center",
             }}
           >
-            Developer
+            Developer new!
           </h1>
           <div style={{ color: "gray", fontSize: "14px" }}>
             Here are demos of the projects I built during my time as a Software
