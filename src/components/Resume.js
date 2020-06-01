@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import NavBarDark from "./NavbarDark";
+import NavbarDark from "./NavbarDark";
 import Footer from "./Footer";
 
 class Resume extends Component {
   render() {
     return (
       <div className="resume">
-        <NavBarDark />
+        <NavbarDark />
 
         <div className="iframediv">
           <iframe

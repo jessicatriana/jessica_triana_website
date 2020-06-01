@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import NavBarDark from "./NavbarDark";
+import NavbarDark from "./NavbarDark";
 import Footer from "./Footer";
 import Post from "./Post";
 
@@ -21,7 +21,7 @@ class Blogs extends Component {
   render() {
     return (
       <div className="blogs">
-        <NavBarDark />
+        <NavbarDark />
         <br></br>
         <div className="sticky-top devheading">
           <br></br>
