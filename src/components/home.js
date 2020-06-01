@@ -7,7 +7,7 @@ class Home extends Component {
     return (
       <div>
         <Navbar />
-        <div className="background"></div>
+        <div className="background" style={{backgroundImage: `url("https://jessicatrianawebsite.s3.us-east-2.amazonaws.com/landscape1.jpg")`}}></div>
         <Footer />
       </div>
     );

@@ -25,7 +25,7 @@ class Spokesmodel extends Component {
           <div class="one">
             <h5>Lexus</h5>
             <img
-              src="https://jessicatrianawebsite.s3.us-east-2.amazonaws.com/lexus3.png"
+              src="https://jessicatrianawebsite.s3.us-east-2.amazonaws.com/lexus.png"
               alt="lexus"
               width="300px"
             />
