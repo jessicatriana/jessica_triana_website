@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import NavbarDark from "./NavbarDark";
-import Footer from "./Footer";
+import Footer from "./footer";
 import YouTube from "@u-wave/react-youtube";
 
 class Developer extends Component {

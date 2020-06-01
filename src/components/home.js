@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "./navbar";
+import Footer from "./footer";
 
 class Home extends Component {
   render() {
