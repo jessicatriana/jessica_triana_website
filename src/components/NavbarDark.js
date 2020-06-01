@@ -5,7 +5,11 @@ class Navbar_Dark extends Component {
     return (
       <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <a className="navbar-brand" href="/">
-          <img src="/jessica_avatar.png" alt="Jessica's Avatar" width="40" />
+          <img
+            src="https://jessicatrianawebsite.s3.us-east-2.amazonaws.com/jessica_avatar.png"
+            alt="Jessica's Avatar"
+            width="40"
+          />
           &nbsp; Jessica Triana
         </a>
         <button
@@ -33,16 +37,16 @@ class Navbar_Dark extends Component {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/blogs">
+              <a className="nav-link" href="/writer">
                 Writer
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/youtuber">
+              <a className="nav-link" href="/creator">
                 Creator
               </a>
             </li>
-          
+
             <li className="nav-item">
               <a className="nav-link" href="/resume">
                 Resume

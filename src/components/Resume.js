@@ -10,7 +10,7 @@ class Resume extends Component {
 
         <div className="iframediv">
           <iframe
-            src="resume.pdf"
+            src="https://jessicatrianawebsite.s3.us-east-2.amazonaws.com/resume.pdf"
             title="resume"
             allowfullscreen
             width="750"

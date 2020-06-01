@@ -45,7 +45,6 @@ class Developer extends Component {
           <br></br>
           <br></br>
           <br></br>
-
           <h5>
             Get Together - Connecting like-minded programmers both on and
             offline.

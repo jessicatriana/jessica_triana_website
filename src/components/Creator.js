@@ -25,15 +25,12 @@ class YouTuber extends Component {
           </div>
         </div>
         <div className="container">
-
           <YouTube
             video="7V2oc7lRfEk"
             width="500px"
             height="280px"
             muted="true"
           />
-          {/* </div> */}
-          {/* </div> */}
           <br></br>
           <br></br>
           <br></br>
