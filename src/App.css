@@ -62,7 +62,6 @@ h5 {
 .one {
   grid-column: 1;
   grid-row: 1;
-  opacity: 100%;
 }
 
 .two {
