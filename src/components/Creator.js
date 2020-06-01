@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import NavBarDark from "./NavbarDark";
 import Footer from "./Footer";
-import YouTube from "@u-wave/react-youtube";
+import YouTube from  "@u-wave/react-youtube";
 
 class YouTuber extends Component {
   render() {

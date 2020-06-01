@@ -5,11 +5,11 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Writer from "./components/Writer";
-import Developer from "./components/Developer";
-import Spokesmodel from "./components/Spokesmodel";
-import Creator from "./components/Creator";
-import Resume from "./components/Resume";
+import Writer from "./Components/Writer";
+import Developer from "./Components/Developer";
+import Spokesmodel from "./Components/Spokesmodel";
+import Creator from "./Components/Creator";
+import Resume from "./Components/Resume";
 
 ReactDOM.render(
   <Router>

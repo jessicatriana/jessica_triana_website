@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import NavBarDark from "./NavbarDark";
+import NavbarDark from "./NavbarDark";
 import Footer from "./Footer";
 import YouTube from "@u-wave/react-youtube";
 
@@ -7,7 +7,7 @@ class Developer extends Component {
   render() {
     return (
       <div className="projects">
-        <NavBarDark />
+        <NavbarDark />
         <br></br>
         <div className="sticky-top devheading">
           <br></br>
