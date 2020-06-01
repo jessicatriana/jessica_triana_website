@@ -13,6 +13,7 @@
     "@u-wave/react-youtube": "^0.7.1",
     "bootstrap": "^4.4.1",
     "classcat": "^4.1.0",
+    "jquery": "^1.9.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",

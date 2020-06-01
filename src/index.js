@@ -9,12 +9,12 @@ import Writer from "./components/Writer";
 import Developer from "./components/Developer";
 import Spokesmodel from "./components/Spokesmodel";
 import Creator from "./components/Creator";
-import Resume from "./components/Resume"
+import Resume from "./components/Resume";
 
 ReactDOM.render(
   <Router>
     <React.StrictMode>
-    <Route exact path="/resume" component={Resume} />
+      <Route exact path="/resume" component={Resume} />
       <Route exact path="/writer" component={Writer} />
       <Route exact path="/developer" component={Developer} />
       <Route exact path="/spokesmodel" component={Spokesmodel} />
