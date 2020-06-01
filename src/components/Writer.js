@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import NavbarDark from "./NavbarDark";
-import Footer from "./Footer";
+import Footer from "./footer";
 import Post from "./Post";
 
 class Blogs extends Component {
