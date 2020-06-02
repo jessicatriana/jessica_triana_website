@@ -52,6 +52,11 @@ class Navbar extends Component {
                 Resume
               </a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/contact">
+                Contact
+              </a>
+            </li>
             <li className="nav-item active">
               <a className="nav-link" href="/">
                 Home <span className="sr-only">(current)</span>
