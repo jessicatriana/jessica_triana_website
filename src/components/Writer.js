@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import NavbarDark from "./NavbarDark";
+import Nav from "./Nav";
 import Footer from "./footer";
 import Post from "./Post";
 
@@ -20,21 +20,27 @@ class Blogs extends Component {
 
   render() {
     return (
-      <div className="blogs">
-        <NavbarDark />
-        <br></br>
-        <div className="sticky-top devheading">
+      <div
+        className="background"
+        style={{
+          backgroundImage: `url("https://jessicatrianawebsite.s3.us-east-2.amazonaws.com/grandteton3.jpg")`,
+        }}
+      >
+        <Nav />
+        <div className="sticky-top heading">
           <br></br>
           <h1 style={{ textAlign: "center" }}>Writer</h1>
           <div style={{ color: "gray", fontSize: "14px" }}>
-            Here are the technical blogs I've written on{" "}
-            <a href="https://dev.to/jessicatriana">DEV</a>.<br></br>Click an
+            Here are the <b>technical blogs</b> I've written on{" "}
+            <a href="https://dev.to/jessicatriana">DEV</a> about what I've
+            learned on my <b>coding journey</b>. This feed pulls information
+            directly from the Dev API and is updated upon refresh. Click an
             image to read the full blog.
             <br></br>
             <br></br>
           </div>
         </div>
-        <div>
+        <div className="writer-posts">
           {this.state.posts.map((post) => (
             <Post post={post} />
           ))}

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 
-class Navbar_Dark extends Component {
+class Nav extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <nav className="navbar navbar-expand-md navbar-light bg-transparent fixed-top">
         <a className="navbar-brand" href="/">
           <img
             src="https://jessicatrianawebsite.s3.us-east-2.amazonaws.com/jessica_avatar.png"
@@ -69,4 +69,4 @@ class Navbar_Dark extends Component {
   }
 }
 
-export default Navbar_Dark;
+export default Nav;
